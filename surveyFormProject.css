@@ -1,0 +1,63 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-image: url(https://cdn.pixabay.com/photo/2017/05/10/19/29/robot-2301646_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+fieldset {
+  background-color:rgba(8, 3, 30, 80%);
+  border-radius: 10px;
+  padding: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+label {
+  display:block;
+  margin: 0.5rem 0;
+  color: white;
+  margin-bottom: 0.7rem;
+}
+label, select {
+  font-family: 'Lato', sans-serif;
+}
+h1, p {
+  color: white;
+  text-align: center;
+  margin: 1em auto;
+}
+form {
+  width: 45vw;
+  margin: 0 auto;
+}
+input, select{
+  width: 100%;
+  height: 2.5em;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+textarea {
+  display: block;
+  width: 100%;
+  height: 7em;
+  border-radius: 5px;
+  margin-top: 0.5em;
+}
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color:rgb(18, 166, 107);
+  color: white;
+}
+.inline {
+  width: unset;
+  margin: -0.5 0.5em 0 0;  
+  vertical-align: middle;
+}
